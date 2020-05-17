@@ -5,8 +5,6 @@ Change Post message as desired
 
 curl --location --request PUT 'http://localhost:8082/tweet' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Basic YWRtaW46YWRtaW4xMjM=' \
---header 'Content-Type: text/plain' \
 --data-raw '{
 	"userId":"admin","message":"Second Msg"
 }'
